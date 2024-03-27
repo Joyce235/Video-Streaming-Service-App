@@ -8,8 +8,10 @@ A content discovery system that includes search functionality, categories/tags, 
 User interfaces for different device types (responsive design or dedicated mobile app development using something like React Native).
 Ratings and reviews for videos.
 Watch history and watchlist features.
+
+
 Technology Stack Suggestions:
-Frontend: Use React.js or Vue.js for building a dynamic and responsive user interface. Consider frameworks like Next.js for React to improve SEO and performance. For mobile, React Native can be a good choice to cover both iOS and Android with a single codebase.
+Frontend: Use React.js for building a dynamic and responsive user interface. Consider frameworks like Next.js for React to improve SEO and performance. For mobile, React Native can be a good choice to cover both iOS and Android with a single codebase.
 Backend: Node.js with Express.js is a popular choice for handling backend logic, including user authentication, database interactions, and serving video content. Flask or Django can be alternatives if you prefer Python.
 Database: MongoDB or PostgreSQL can store user data, video metadata, and user interactions (like watch history and ratings). Elasticsearch can be added for advanced search capabilities.
 Video Processing: Use FFmpeg for video transcoding to ensure your videos are in a web-friendly format. Consider implementing HLS (HTTP Live Streaming) or MPEG-DASH for adaptive bitrate streaming to dynamically adjust video quality.
